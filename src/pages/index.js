@@ -41,7 +41,7 @@ export default (() => {
 		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
 			<Text
 				as="h1"
-				font="--headline1"
+				font="normal 900 72px/1.2 lato"
 				md-font="--headline2"
 				max-width="520px"
 				margin="0 auto 5px auto"
@@ -73,7 +73,13 @@ export default (() => {
 						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
 					</Text>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
+				<StackItem
+					width="25%"
+					lg-width="50%"
+					sm-width="100%"
+					sm-margin-top="24px"
+					font="300 16px/24px lato"
+				>
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1546672741-d327539d5f13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) 50% 0/cover no-repeat" />
 					<Text color="--grey" margin="0">
